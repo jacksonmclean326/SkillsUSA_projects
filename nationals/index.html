@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class = 'gridBox'>
+    <div class = 'b1' id="b1">
+      <img class = 'logo' src = 'resources/logo.png'> 
+      <a href = 'broken.html' class = 'link'>projects</a>
+      <a href = 'broken.html' class = 'link'>how it works</a>
+      <a href = 'broken.html' class = 'link'>Get involved</a>
+     <a href='broken.html' class = 'link'><button> Become a member</button></a>
+    </div>
+    <div class = 'b2'id="b2">
+      <img class="img" src=resources/backgroundinfo.png>
+      <div id = 'beg'>
+        <h2>For a wilder planet</h2>
+        <br>
+        <p>More than just tree planting...</p>
+        <ul>
+            <li>Bring back wild forests, prairies, and wetlands</li>
+            <li>Rewild habitats to support biodiversity and endangered species</li>
+            <li>Support underfunded ecosystems and species</li>
+        </ul>
+      </div>
+      </img>
+    </div>
+    <div class = 'gridBox' id = 'b3'>
+      <div class = 'info' id = '1'>80% of contributions go directly to impact different projects<br><a href = 'broken.html'>TRANSPARENCY & INTEGRITY -></a></div>
+      <div class = 'info' id = '2'>Our team of biologists research, implement, and moniter each project<br><a href = 'broken.html'>METHODOLOGIES -></a></div>
+      <div class = 'info' id = '3'>1737 Members $245,080 Raised for 45 projects<br><a href = 'broken.html'>PROJECTS -></a></div>
+      <a href = 'broken.html' id = 'donate'><button id = 'button'><h2>Become a Member</h2></button></a>
+    </div>
+    <div class = 'b4'>
+      <img src="resources/forests.jpg" class="forestmine" id = 'forest' onMouseEnter = "boop()" >
+      <img src = "resources/grossforests.jpg" class = "grossforest" id = 'gross' onMouseLeave = "bop()">
+      <div class="text" id = 'forestText'>
+        <h2>Flooding a Forest</h2>
+        <p>This ambitious project aims to restore an area of degraded wetland by digging water channels that will reconnect the site to a nearby river. These channels will enable water to travel from the river to the core area of the wetland and restore a more beneficial flooding regime. The project will also remove encroaching woody vegetation that is out-competing the native wetland plant communities.</p>
+        <hr>
+        <ul>
+          <li>Create suitable conditions for the regeneration of the wetland plant communities</li>
+          <li>Suppress the expansion of non-native plant species</li>
+          <li>Create suitable habitat for a diversity of invertebrates, amphibians, birds and mammals</li>
+        </ul>
+      </div>
+    </div>
+    <div class = 'b5'>
+      <img src="resources/mines.jpg" class="forestmine" id = 'mine' onMouseEnter = "beep()" >
+      <img src="resources/grossmines.jpg" class="grossforest" id='grossmine' onMouseLeave = "bep()">
+      <div class="text">
+        <h2>Former Mining Site</h2>
+        <p>Since mining came to a halt over a decade ago, the area is gradually evolving into numerous water environments including lakes, ponds and marshes. These habitats are now filled with aquatic and riparian vegetation, such as reeds and rushes, where tin, titanium and sand were once extracted.</p>
+        <hr>
+        <ul>
+          <li>Black stork, Vulnerable</li>
+          <li>Green sand piper, Vulnerable</li>
+          <li>Ribbed newt, Threatened</li>
+        </ul>
+      </div>
+    </div>
+    <div class = 'b6' id='b6'>
+      <img class = 'logo' src = 'resources/logo.png'> 
+      <p id = 'foottag'>©️ Web Professionals Global</p>
+      <a href = 'resources/copy.txt' id = 'footlink'>Copyrights or resources used</a>
+    </div>
+  </div>
+  <script>
+    function boop(){
+      document.getElementById('forest').style.display = 'none';
+      document.getElementById('gross').style.display = 'block';
+      
+    }
+    function bop(){
+      document.getElementById('forest').style.display = 'block';
+      document.getElementById('gross').style.display = 'none';
+    }
+    function beep(){
+      document.getElementById('mine').style.display = 'none';
+      document.getElementById('grossmine').style.display = 'block';
+    }
+    function bep(){
+      document.getElementById('mine').style.display = 'block';
+      document.getElementById('grossmine').style.display = 'none';
+    }
+  </script>
+</body>
+
+</html>

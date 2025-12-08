@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<title>Community Foodbank</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="image/x-icon" href="resources/community-food-bank-logo.svg">
+		<style>
+			
+		</style>
+	</head>
+	<Body>
+		<ul class="top">
+			<li class="top-li"><a href="#don">Donate</a></li>
+			<li class="top-li"><a href="#vol">Volunteer</a></li>
+			<li class="top-li"><a href="#get">Get Help</a></li>
+		</ul>
+		<header>
+			<img src="resources/community-food-bank-logo.svg" alt="Community food bank logo" class="headlogo">
+			<h1 id = "headerText">Community Foodbank</h1>
+		</header>
+		<div id = "one">
+			<ul id = "inone">
+				<li>1 in 5 live in poverty</li>
+				<li>12% live in a food desert</li>
+				<li>22% of those in poverty don't have a vehicle</li>
+				<button name = "learnMore">learn more ></button>
+			</ul>
+			<div id = "buttons">
+				<button name = "donate" id="don" onclick = "document.getElementById('donation').style.display = 'block'">Donate</button>
+				<button name = "volunteer" id="vol" onclick = "document.getElementById('volunteer').style.display = 'block'">Volunteer</button>
+				<button name = "GetHelp" id="get" onclick = "document.getElementById('help').style.display = 'block'">Get Help</button>
+			</div>
+			
+		</div>
+		<div id = "two">
+			<img src = "resources/adorno.jpg" class="partnerpic" title="A woman with her child">
+		</div>
+		<div id = "three">
+			<h1>$1 helps provide 5 meals to our neighbors facing hunger</h1>
+			<div class = "icons">
+				<img src = "resources/dinnericon.png" class = "icon" alt="dinner platter" title="dinner platter">
+				<h3>45 million</h3>
+				<p>meals distributed</p>
+			</div>
+			<div id = "twoIcon" class = "icons">
+				<img src = "resources/people.png" class = "icon" alt="helpers" title="helpers">
+				<h3>6000</h3>
+				<p>volunteers</p>				
+			</div>
+			<div id = "threeIcon" class = "icons">
+				<img src = "resources/food.png" class = "icon" alt="donated" title="donated">
+				<h3>12 million</h3>
+				<p>pounds of fresh produce</p>			
+			</div>
+
+		</div>
+		<button id = "donate" onclick = "document.getElementById('donation').style.display = 'block'" >
+			<img src = "resources/heart.png" style="height: 248px; width: 216px;">
+			<p id = "heart">Donate now</p>
+		</button>
+		<div class = "popup" id = "donation">
+			<button class = close onclick = "document.getElementById('donation').style.display = 'none'">x</button>
+			<form action="/action_page.php">
+				<label for="fname">Name:</label><br>
+				<input type="text" id="fname" name="fname" value = "name"><br>
+				<label for="lname">Donation amount:</label><br>
+				<input type="text" id="lname" name="lname" value = "0.00"><br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div class = "popup" id = "volunteer">
+			<button class = close onclick = "document.getElementById('volunteer').style.display = 'none'">x</button>
+			<form action="/action_page.php">
+				<label for="fname">Name:</label><br>
+				<input type="text" id="fname" name="fname" value = "name"><br>
+				<label for="lname">Date available:</label><br>
+				<input type="text" id="lname" name="lname" value = "00/00/0000"><br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div class = "popup" id = "help">
+			<button class = close onclick = "document.getElementById('help').style.display = 'none'">x</button>
+			<form action="/action_page.php">
+				<label for="fname">Name:</label><br>
+				<input type="text" id="fname" name="fname" value = "name"><br>
+				<label for="lname">What is your need?:</label><br>
+				<input type="text" id="lname" name="lname" value = "need"><br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<footer>
+			<img src="resources/community-food-bank-logo.svg" alt="Community food bank logo" class="logo">
+		<h4 class="footertext">Community Foodbank</h4>
+		</footer>
+		<script>
+			
+		</script>
+	</Body>
+</html>

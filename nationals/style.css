@@ -1,0 +1,153 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.gridBox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: teal;
+}
+
+.gridBox>div {
+  padding: 10px;
+  font: 20;
+}
+
+.b1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: lightgray;
+}
+
+.b2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+#b2 {
+  height: 500px;
+
+}
+
+#b3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 10px;
+}
+
+.b4 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 500px;
+}
+
+.b5 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 500px;
+}
+
+.b6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: lightgray;
+}
+
+#1 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.logo {
+  height: 40px;
+  width: 20%;
+}
+
+.link {
+  position: relative;
+  left: 25%;
+  padding: 10px;
+}
+
+#b1 {
+  height: 50px;
+}
+
+.img {
+  height: 500px;
+  width: 100%
+}
+
+#foottag {
+  position: relative;
+  left: 80%;
+  bottom: 50%;
+}
+
+#footlink {
+  position: relative;
+  left: 80%;
+  bottom: 50%;
+}
+
+#beg {
+  background-color: seagreen;
+  position: relative;
+  bottom: 75%;
+  left: 20%;
+  height: 50%;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+#b6 {
+  height: 75px
+}
+
+.info {
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 25%;
+  height: 100px;
+  text-align: center;
+}
+
+.forestmine {
+  height: auto;
+  width: 500px;
+  position: relative;
+  left: 0%;
+}
+
+#donate {
+  position: relative;
+  left: 130%;
+}
+
+button {
+  background-color: #3C4EA9;
+}
+
+#button {
+  height: 75px;
+  width: 50%;
+}
+.text {
+  position: relative;
+  left: 50%;
+  bottom: 70%;
+  width: 45%;
+}
+.grossforest{
+  /*display:none;
+  display:flex;*/
+  height: auto;
+  width: 500px;
+  position: relative;
+  display:none;
+  /*left: -100%;*/

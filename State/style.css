@@ -1,0 +1,117 @@
+.headlogo {
+	height:50px;
+	width:50px;
+}
+.partnerpic{
+	height:100%;
+	width:100%;
+}
+#two{
+	height: 200px;
+	width: 45%;
+	border-style: solid;
+	left:50%;
+	bottom:203px;
+}
+#one{
+	height: 200px;
+	width:45%;
+	left:5%;
+	border-style: solid;
+}
+
+div{
+	height:200px;
+	width:45%;
+	position:relative;
+}
+#buttons{
+	border:none;
+	width: 75%;
+	left:25%;
+	top:10%;
+}
+#three{
+	width:80%;
+	left:10%;
+	bottom:20%;
+	height:100px;
+}
+header{
+	padding:50px;
+}
+.icon{
+	height:40%;
+	width:20%;
+}
+p{
+	position:relative;
+	left:25%;
+	bottom:50%;
+}
+h3{
+	position:relative;
+	left:25%;
+	bottom:45%;
+}
+.icons{
+	width:30%;
+	height:200px;
+}
+#twoIcon{
+	left:30%;
+	bottom:200px;
+}
+#threeIcon{
+	left:60%;
+	bottom:400px;
+}
+.top{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:#333;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+.top-li{
+	float:left;
+}
+#donate{
+	position:relative;
+	left:40%;
+}
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+header{
+	top:20px;
+}
+.popup{
+	display:none;
+	position:absolute;
+	left:40%;
+	bottom:5%;
+	background-color:#7e8b6f;
+}
+#headerText{
+	position:relative;
+	left:10%;
+	bottom:50px;
+}
+.logo{
+	height:50px;
+	width:50px;
+}
+.footertext{
+	position:relative;
+	left:10%;
+	bottom:50px;
+	
+}

@@ -115,3 +115,13 @@ header{
 	bottom:50px;
 	
 }
+
+#donate {
+	max-height: fit-content;
+	width: 150px;
+
+	img {
+		max-height: 50px;
+		max-width: min-content;
+	}
+}
